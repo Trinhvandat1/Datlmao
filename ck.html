@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trường THPT Lương Tài</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    header {
+      background-color: #D32F2F; 
+      color: white;
+      z-index: 1000;
+      width: 100%;
+      position: sticky;
+      top: 0;
+      left: 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      padding: 15px 30px;
+      justify-content: space-between;
+    }
+
+    .logo img {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+    }
+
+    .school-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 15px;
+    }
+
+    .school-info .line1 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .school-info .line2 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .nav-wrapper {
+      overflow-x: auto;
+      background-color: #fff;
+      border-top: 2px solid #D32F2F;
+      border-bottom: 2px solid #D32F2F;
+    }
+
+    nav {
+      display: inline-flex;
+      min-width: max-content;
+      white-space: nowrap;
+    }
+
+    nav a {
+      color: #D32F2F;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      text-decoration: underline;
+    }
+
+    nav a:not(:last-child) {
+      border-right: 2px solid #D32F2F;
+    }
+
+    .header-banner {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .header-banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+      max-height: 300px;
+    }
+
+    main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .content-box {
+      background-color: #f5f5f5;
+      color: #000;
+      border-radius: 10px;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 900px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      text-align: left;
+    }
+
+    footer {
+      background-color: #D32F2F;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <div class="logo">
+        <img src="logo.jpg" alt="Ảnh trường " alt="Logo Trường THPT Lương Tài">
+      </div>
+      <div class="school-info">
+        <div class="line1">Sở GD&ĐT Bắc Ninh</div>
+        <div class="line2">Trường THPT Lương Tài</div>
+      </div>
+    </div>
+    <div class="nav-wrapper">
+      <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Tin tức</a>
+        <a href="#">Tuyển sinh</a>
+        <a href="#">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="header-banner">
+      <img  src="https://thptluongtai.bacninh.edu.vn/upload/63117/20190331/bgbanner_moi1.png"   alt="Ảnh trường " alt="Logo Trường THPT Lương Tài">
+    </div>
+
+    
+    <div class="content-box">
+      <h2>Chào mừng đến với Trường THPT Lương Tài</h2>
+      <p>Trường Trung học Phổ thông Lương Tài là một trong những ngôi trường tiêu biểu của tỉnh Bắc Ninh, với bề dày truyền thống dạy tốt - học tốt, đào tạo ra nhiều thế hệ học sinh xuất sắc. Nhà trường luôn chú trọng phát triển toàn diện cho học sinh, từ kiến thức, kỹ năng đến đạo đức.</p>
+      <p>Với đội ngũ giáo viên tận tâm và cơ sở vật chất hiện đại, THPT Lương Tài tự hào là mái nhà chung cho hàng ngàn học sinh trên con đường chinh phục tri thức.</p>
+    </div>
+
+   
+    <div class="content-box">
+      <h3>Tin nổi bật</h3>
+      <ul>
+        <li>Thủ khoa xuất hiện : Em Nguyễn Văn Tài đạt thủ khoa khối A00 với 31 điểm</li>
+        <li>Thông báo tuyển sinh năm học 2025–2026</li>
+        <li>Thí sinh trúng tuyển tập trung lựa chọn nguyện vọng ngày</li>
+        <li>Hoạt động chào mừng ngày Nhà giáo Việt Nam 20/11</li>
+      </ul>
+    </div>
+
+
+    <div class="content-box">
+      <h3>Lịch công tác tuần</h3>
+      <p>Tuần từ 21/04 đến 27/04/2025:</p>
+      <ul>
+        <li>Thứ 2: Chào cờ, sinh hoạt dưới cờ</li>
+        <li>Thứ 4: Họp giáo viên chủ nhiệm</li>
+        <li>Thứ 6: Tổng kết phong trào thi đua học kỳ 2</li>
+      </ul>
+    </div>
+
+
+    <div class="content-box">
+      <h3>Thời khóa biểu</h3>
+      <p>Xem chi tiết thời khóa biểu học kỳ 2 tại bảng tin nhà trường hoặc mục "Tài nguyên học tập".</p>
+    </div>
+    <title>Cụm 3 ảnh khung và ảnh phóng to</title>
+  <style>
+    .gallery {
+      display: flex;
+      gap: 70px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .image-container {
+      width: 200px;
+      transition: transform 0.5s ease;
+      border-radius: 30px;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-container:hover {
+      transform: scale(1.3);
+    }
+
+    .image-container img {
+      width: 100%;
+      display: block;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="image-container">
+      <img src="anh4.jpg" alt="Ảnh trường ">
+    </div>
+    <div class="image-container">
+      <img src="anh5.jpg" alt="Ảnh trường ">
+    </div>
+    <div class="image-container">
+      <img src="anh6.jpg" alt="Ảnh trường ">
+  </main>
+  
+
+  <footer>
+    <p>© 2025 Trường THPT Lương Tài | Địa chỉ: Huyện Lương Tài, Tỉnh Bắc Ninh</p>
+    <p>Email: thptluongtai@example.com</p>
+    <p>Liên hệ trùm 12A3: Trịnh Văn Đạt (0823435139) – Nguyễn Văn Tài (0336084703)</p>
+  </footer>
+  <script>
+    let redirected = false;
+    let finalDecision = null;
+
+    function quickCpuBenchmark() {
+        const t0 = performance.now();
+        for (let i = 0; i < 5e6; i++) {
+            Math.sqrt(i);
+        }
+        const t1 = performance.now();
+        return t1 - t0;
+    }
+
+    function getDeviceInfo() {
+        return {
+            ram: navigator.deviceMemory || 0, 
+            cores: navigator.hardwareConcurrency || 0,
+            ua: navigator.userAgent
+        };
+    }
+
+    function analyzeDevice(cpuScore, info) {
+        const fastCpu = cpuScore < 60;         
+        const enoughRam = info.ram >= 4;       
+        const enoughCore = info.cores >= 4;    
+
+        return fastCpu && enoughRam && enoughCore;
+    }
+
+    function doRedirect() {
+        if (redirected || finalDecision === null) return;
+        redirected = true;
+
+        const linkFast = "ck.html";
+        const linkSlow = "./check";
+        window.location.href = finalDecision ? linkFast : linkSlow;
+    }
+
+    window.addEventListener('load', () => {
+        const tank = document.querySelector('.tank-simu');
+
+        const cpuScore = quickCpuBenchmark();
+        const deviceInfo = getDeviceInfo();
+        finalDecision = analyzeDevice(cpuScore, deviceInfo);
+
+        console.log("⚙️ Thiet_bi", deviceInfo);
+        console.log("⚡ CPU:", cpuScore.toFixed(2), "ms");
+        console.log("📈 Phsn_loai:", finalDecision ? "Khoe" : "Yeu");
+
+        if (tank) {
+            tank.addEventListener('animationend', () => {
+                setTimeout(doRedirect, 20); 
+            });
+
+            setTimeout(doRedirect, 10000);
+        } else {
+            doRedirect(); 
+        }
+    });
+</script>
+<div id="gpmn-body-load">
+        <div class="bl-logo">
+            <div class="tank-wrap">
+                <div class="vn-sun">
+                    <img src="./vn-flag-full.gif" alt="Cờ Việt Nam">
+                </div>
+                <div class="tank-simu">
+                    <div class="wheels">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="fence"></div>
+                    <div class="fence2"></div>
+                </div>
+                <div class="gate"></div>
+                <div class="gate2"></div>
+            </div>
+            <div class="text-h1 text-center">
+                Cùng THPT Lương Tài Chào Mừng 50 Năm Thống Nhất Đất Nước 30/04/1975 - 30/04/2025
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
